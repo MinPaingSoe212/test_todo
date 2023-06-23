@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(43, 33, 33);
+}
+.container h1 {
+  color: white;
+
+  width: 500px;
+  margin: 0 auto;
+
+  text-align: center;
+  margin-bottom: 100px;
+}
+.input_group {
+  display: flex;
+}
+.list {
+  color: black;
+  padding: 5px;
+  width: 288px;
+  background-color: white;
+  margin-top: 3px;
+  height: 40px;
+  list-style: none;
+}
+.list_item {
+  margin: 10px 0px;
+  background-color: white;
+  width: 300px;
+  display: flex;
+}
+.del-btn {
+  width: 80px;
+
+  padding: 9px 5px;
+  background-color: blue;
+  user-select: none;
+}
+.active {
+  text-decoration: line-through;
+  user-select: none;
+}
